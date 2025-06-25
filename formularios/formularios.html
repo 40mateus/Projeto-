@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <h1>preencha o formulario</h1>
+ <form action="processa.html">
+     
+     <label for="nome">nome:</label>
+    <input type="text" name="nome" id="nome"><br><br>
+
+
+    <label for="email">Email:</label>
+    <input type="text" name="email" id="email">
+
+<p>Cadastre seus dados de Gênero</p>   
+ Gênero:<br>
+      
+    <input type="radio" name="genero" value="feminino" id="feminino">
+   <label for="feminino">Feminino</label><br>
+     
+    <input type="radio" name="genero" value="masculino" id="masculino">
+ <label for="masculino">Maculino</label>
+
+     <br><br>
+    <p> tem alguma defiecia?</p>
+
+      
+    <input type="checkbox" name="defiecia?" value="sim" id="sim">
+    <label for="sim">sim</label><br>
+
+    <input type="checkbox" name="defiecia?" value="não" id="não"> 
+    <label for="não">não</label>
+
+    <p>Estado</p>
+    <select name="Estado">
+        <option value="">Secione..</option>
+        <option value="GO">Goias</option>
+        <option value="TO">tocantins</option>
+        <option value="RJ">rio de janeiro</option>
+    </select>
+    
+     <br><br>
+    <input type="submit" value="Cadastre"> 
+ </form>
+
+ <form action="">
+
+<fieldset>
+    <legend>Seu enderenço</legend>
+
+   <label for="rua">rua</label>
+   <input type="text" name="rua" id="rua">
+
+     <label for="CEP">CEP</label>
+   <input type="text" name="CEP" id="CEP"> 
+
+</fieldset>
+ </form>
+</body>
+</html>
