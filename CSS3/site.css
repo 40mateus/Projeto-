@@ -12,5 +12,18 @@ span {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+a:hover{
+    background-color: chartreuse;
+    color: black;
+}
+
+a:active{
+    background-color: darkviolet;
+}
+
+a:link {
+    background-color: whitesmoke;
+    color: blueviolet;
+}
 
 
